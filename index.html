@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script src="./node_modules/babel/node_modules/babel-core/browser.js"></script>
+	<script src="./node_modules/requirejs/require.js"></script>
+	<script type="text/babel">
+		// console.log([1,2,3].map(i=>i*i));
+		// class Calc {
+		// 	constructor(){
+		// 		let a = 4;
+		// 		let b=6;
+		// 		console.log("laksdfj")
+		// 	}
+		// 	add(a,b){
+		// 		return this.a+this.b;
+		// 	}
+		// }
+
+		// let c = new Calc();
+		// console.log(c.add(1,2));
+		// function bar(x=y,y=1) {
+		// 	console.log(z);
+		// 	let z=0;
+		// 	return [x,y];
+		// }
+		// console.log(bar())
+		// let foo = 'outer';
+
+// function bar(func = x => foo) {
+	// import * as consts from "./constants";
+	// console.log(consts)
+//   let foo = 'inner';
+//   console.log(func.toString())
+//   console.log(func(2.2386)); // outer
+// }
+// let ccc;
+// bar(ccc=i=>parseInt(i));
+var a = 5;
+var b = 10;
+
+function tag(s, v1, v2) {
+  console.log(s[0]);
+  console.log(s[1]);
+  console.log(v1);
+  console.log(v2);
+
+  return "OK";
+}
+
+tag`Hello ${ a + b } world ${ a * b}`;
+	</script>
+</body>
+</html>

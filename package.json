@@ -1,0 +1,19 @@
+{
+  "name": "es6-in-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "go"
+  },
+  "author": "phoeon",
+  "license": "ISC",
+  "dependencies": { 
+  	"requirejs" : "",
+  	"require" : "",
+    "babel" : ""
+   },
+   "devDependencies" : {
+   	"browserify" : ""
+   }
+}
